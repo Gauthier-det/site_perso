@@ -1,0 +1,117 @@
+html, body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #D9D9D9;
+}
+
+header {
+    background: #EB8007;
+}
+
+header h1{
+    margin-left: 1.5em;
+    text-align: left;
+    color: #592400;
+}
+
+nav{
+    padding: 1em;
+}
+
+nav a {
+    color: white;
+    margin: 5%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#accueil{
+    font-size: 1.8em;
+    position: relative;
+    top: -0.5em;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.box-cliquable{
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-box {
+    margin-right: 12%;
+    margin-left: 12%;
+    background: #BBB4B4;
+    padding: 4%;
+    border-radius: 20px;
+    width: 15em;
+    height: auto;
+    min-height: 15em;
+}
+
+.boxes{
+    margin: auto;
+    width: 100%;
+    display:flex;
+}
+
+.text-box-projets {
+    margin: auto;
+    background: #BBB4B4;
+    padding: 2%;
+    border-radius: 20px;
+    width: 20%;
+    height: auto;
+    min-height: 18em;
+    
+}
+
+.text-box-projets p{
+    margin-top: 20%;
+}
+
+.text-box-projets img{
+    margin-top: 5%;
+    height: 30px;
+    width: 30px;
+}
+
+.titpage {
+    display: block; 
+    text-align: center; 
+    margin-bottom: 5%; 
+    width: 100%;
+}
+
+
+footer {
+    background: #EB8007;
+    height: 2em;
+    padding: 1em;
+    align-items: center;
+}
+
+.footer-bar a{
+    margin-left: 2em;
+}
+
